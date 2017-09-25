@@ -9,8 +9,14 @@ namespace Project1
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            
+            Console.WriteLine(TextRead());
             Console.ReadLine();
+        }
+        static string TextRead()
+        {
+            string content = "Hello world!";
+            return content;
         }
     }
 }
